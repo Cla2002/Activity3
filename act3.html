@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity3</title>
+    <link rel="stylesheet" href="act3.css">
+</head>
+<body>
+    
+    <div id="form-1">
+        <label>Your nickname please</label>
+        <input type="text" id="nnInput" value="">
+        <button type="submit" onclick="proceed()">proceed</button>
+    </div>
+
+    <div id="form-2" style="display: none;">
+        <h1 id="valueh1"></h1>
+    
+
+        <div id="foods">
+            <div id="food-1">
+                <img src="img/Adobo_DSCF4391 - Copy.jpg" alt="img">
+                <h1 id="Adobo">Adobo</h1>
+                <p>Adobo is a popular Filipino dish made with meat, usually chicken or pork, marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns, then simmered until tender.</p> 
+                <button id="button" onclick="proceed2()" >Read More</button>
+            </div>
+            <div id="food-2">
+                <img src="img/Sinigang_na_Baboy.webp" alt="img">
+                <h1 id="Sinigang-na-Baboy-1">Sinigang na Baboy</h1>
+                <p>Sinigang na Baboy is a sour soup native to the Philippines. It is made with pork, various vegetables, and tamarind for its distinctive sour taste.</p>
+                <button id="button" onclick="proceed3()" >Read More</button>
+            </div>
+            <div id="food-3">
+                <img src="img/pinakbet-featured-img.jpg" alt="img">
+                <h1>Pinakbet</h1>
+                <p>Pinakbet is a Filipino vegetable dish consisting of a variety of vegetables such as squash, eggplant, okra, and bitter melon, sautéed with shrimp paste and sometimes pork or fish.</p>
+                <button id="button" onclick="proceed4()" >Read More</button>
+            </div>
+            <div id="food-4">
+                <img src="img/Chocolate-Yum-Yum-Cake-FI.jpeg" alt="img">
+                <h1>Cake Yum</h1>
+                <p>Cake Yum is a popular Filipino dessert made with layers of sponge cake, custard filling, and topped with a creamy frosting made of condensed milk and cream cheese.</p>
+                <button id="button" onclick="proceed5()" >Read More</button>
+            </div>
+        </div>
+    </div>
+                <div id="form-3">
+                    <h1>Adobo</h1>
+                    <p>Use any cut of pork that you prefer. I suggest pork belly for best results. However, use leaner parts if you are trying to avoid fats. 
+                        <br> Pork tenderloin is a healthier choice. This is very tender and contains way less fat than pork belly. You can also use other 
+                        <br>proteins such as chicken and goat meat using this recipe.</p>
+                    <button type="button" onclick="back1()">Back</button>
+                </div>
+
+                <div id="form-4">
+                    <h1>Sinigang na Baboy</h1>
+                    <p>Sinigang na baboy with Gabi is a Filipino pork soup with taro cooked in a sour broth. Sinigang is my comfort food, and one of 
+                        <br>the first few dishes that I tried to make way back when I was starting to learn how to cook.</p>
+                    <button type="button" onclick="back2()">Back</button>
+                </div>
+
+                <div id="form-5">
+                    <h1>Pinakbet</h1>
+                    <p>Pinakbet Tagalog is a Filipino vegetable dish. It is composed of a variety of vegetables and it also has a protein component. 
+                        <br> I made use of lechon kawali or crispy deep-fried pork belly for this recipe. This recipe is a variation of the popular Pinakbet Ilocano. </p>
+                    <button type="button" onclick="back3()">Back</button>
+                </div>
+
+                <div id="form-6">
+                    <h1>Cake Yum</h1>
+                    <p>Try making this Yum Yum Cake the next time you have a family gathering for a sweet and decadent dessert that is sure to have rave reviews. 
+                        <br> A delicious cake topped with homemade icing that includes coconut and pecans. </p>
+                    <button type="button" onclick="back4()">Back</button>
+                </div>
+            
+
+
+    <script src="act3.js"></script>
+
+
+</body>
+</html>
